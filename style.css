@@ -27,8 +27,12 @@
 }
 html {
         min-height: 100%;
+        font-size: 16px;
+        width: 1800px;
+        height: 3141px;
         display: flex;
         flex-direction: column;
+        margin: auto;
     
 }
 body {
@@ -36,26 +40,30 @@ body {
         flex-direction: column;
         flex: auto;
         font-family: 'TitilliumWeb-SemiBold', 'MyriadPro-Regular'; 
-        margin: auto;
         color: #636363;
 }
         
 header {
         display: flex;
         flex-wrap: wrap;
-        box-sizing: border-box;     
-
+        box-sizing: border-box; 
+        height: 149px;
+        padding-top: 2.706144539955428%; /*85/3141*/
+        
 }
 h1 {
-        font-size: 1.85em; /*30/16*/
+        font-size: 1.85rem; /*30/16*/
+        padding-bottom: 0.8914358484559058% 
+}
+.partofneutron{
+        color: #5b4295;
 
 }
 .language{
-        width: 8.722222222222222%; /* 157/1800 */
+        display: inline-block;
         margin-left: 11.11111111111111%; /*200/1800*/
-        font-size: 0,875em; //*14/16*/
 }
-
 a{
         text-decoration: none;
+        color: #636363;
 }

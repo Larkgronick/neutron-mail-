@@ -29,24 +29,33 @@ html {
         min-height: 100%;
         display: flex;
         flex-direction: column;
+    
 }
 body {
         display: flex;
         flex-direction: column;
         flex: auto;
-        }
+        font-family: 'TitilliumWeb-SemiBold', 'MyriadPro-Regular'; 
+        margin: auto;
+        color: #636363;
+}
+        
 header {
-        width: 100%;
-        min-width: 430px; 
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        box-sizing: border-box;           
+        box-sizing: border-box;     
+
+}
+h1 {
+        font-size: 1.85em; /*30/16*/
+
+}
+.language{
+        width: 8.722222222222222%; /* 157/1800 */
+        margin-left: 11.11111111111111%; /*200/1800*/
+        font-size: 0,875em; //*14/16*/
 }
 
-h1{
-        font-family: 'TitilliumWeb-SemiBold', 'MyriadPro-Regular';     
-}
 a{
         text-decoration: none;
 }

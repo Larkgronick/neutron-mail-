@@ -45,13 +45,12 @@ body {
 header {
         display: flex;
         justify-content: space-between;
-        box-sizing: border-box; 
         height: 149px;
         margin-top: 2.706144539955428%; /*85/3141*/
         
 }
 h1 {
-        font-size: 1.85rem; /*30/16*/
+        font-size: 2,5rem;
         padding-bottom: 5%;
 }
 .partofneutron{
@@ -66,14 +65,14 @@ a{
         text-decoration: none;
         color: #636363;
 }
-span a{
+p a{
         padding: 0 0.5rem;
 }
 .english{
         margin-left: -0.5rem;
 }
 nav{
-        font-size: 1rem;
+        font-size: 1.333333333333333rem;
         margin-right: 11.05555555555556%;
         width: 46.333333%;
 }
@@ -87,27 +86,90 @@ nav h3{
         display: inline;
         margin-right: 3%;
 }
-
 button{
-        width: 97px; 
-        height: 43px;
-        border-radius: 20px 20px 20px 20px;
+        border: none;
+        background-clip: content-box;
+        color: white;
+        background-size: 150%;
+        background-position: 50% 30%;
+}
+button:active {
+        transform: translateY(4px); /*довести до ума анимацию*/
+}
+nav button{
+        width: 6.0325rem; /*97/16*/
+        height: 2.6875rem; /*47/16*/
+        border-radius: 1.25rem 1.25rem 1.25rem 1.25rem; /*20/12*/
+        background-image: url(assets/sign-up-button.png);
+}
+
+.introduction{
+        background-image: url(assets/mountains.png);
+        height: 760px;
+        background-repeat: no-repeat;
+}
+.accounts{
+        display: flex;
+}
+.intro{
+        width: 97%;
+        text-align: center; 
+        margin-left:2%;
+}
+.intro h2{
+        font-size: 5rem;
+        margin-top: 5%;
+}
+.intro p{
+        font-size: 2.5rem;
+}
+span{
+        color: #fc6268;
+}
+.store{
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+}
+
+
+
+.store img{
+        width: 2.875rem;
+        height: 2.875rem;
+        padding: 0 0.5rem;
+        display: inline-block;
+        margin-top: 0.30rem;
+}
+
+.createaccount{
+        width: 15.5625rem; 
+        height: 3.6875rem; 
+        border-radius: 2.5rem 2.5rem 2.5rem 2.5rem; /*20/12*/
         border: none;
         background-image: url(assets/sign-up-button.png);
         background-size: 150%;
-        background-position: 50% 24%;
+        background-position: 50% 30%;
         background-clip: content-box;
         color: white;
-        flex-wrap: nowrap;
 }
-.introduction{
+
+.social{
+        margin-top: 7.5%;
+}
+.social img{
+        display: block;
+}
+.safety{
         display: flex;
-        flex-direction: column;
-        background-image: url(assets/mountains.png);
-        height: 19%;
 }
-.introduction h2{
-        margin-top: 300px;
+figure{
+        width: 22.375rem;
+        display: inline-block;
 }
-
-
+figcaption{
+        float: right;
+}
+figcaption h3{
+        font-size: 2.5rem;
+}

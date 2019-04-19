@@ -87,7 +87,6 @@ nav h3{
         margin-right: 3%;
 }
 button{
-        border: none;
         background-clip: content-box;
         color: white;
         background-size: 150%;
@@ -97,6 +96,7 @@ button:active {
         transform: translateY(4px); /*довести до ума анимацию*/
 }
 nav button{
+        border: none;
         width: 6.0325rem; /*97/16*/
         height: 2.6875rem; /*47/16*/
         border-radius: 1.25rem 1.25rem 1.25rem 1.25rem; /*20/12*/
@@ -162,14 +162,82 @@ span{
 }
 .safety{
         display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        margin-bottom: -10%;
 }
 figure{
-        width: 22.375rem;
+        width: 20%;
         display: inline-block;
+        padding: 0 3.125rem;
 }
-figcaption{
-        float: right;
+figure img{
+        float: left;
 }
+.swiss-privacy{
+        width:4.25rem;
+        height: 4.25rem;
+}
+.double-encryption{
+        width:5.9375rem;
+        height: 4.625rem;
+}
+.anonymous-email{
+        width:4.375rem;
+        height: 3.75rem;
+}
+
 figcaption h3{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
 }
+figure figcaption p{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+}
+figure p{
+        text-align: justify;
+        font-size: 1.166666666666667rem;
+
+}
+
+hr{
+        width: 600px;
+        color:#b9b9b9;;
+        background-color: #b9b9b9;
+        border: none;
+}
+.firstsafetyline{
+        width: 0.1rem;
+        height: 17.125rem;
+        margin-top: -8.5rem
+}
+.secondsafetyline{
+        width: 0.1rem;
+        height: 34.0625rem;
+       
+
+}
+.thirdsafetyline{
+        width: 15.55555555555556%;
+        height: 0.1rem;
+}
+.physicalsecurity{
+        width: 40%;
+        font-size: 1.5em;
+        text-align: right;
+        margin-left: 18rem;
+}
+.physicalsecurity h3, p{
+        text-align: right;
+        display: block;
+}
+
+section button{
+        width: 20.875rem; 
+        height: 3.875rem; 
+        border-radius: 2.25rem 2.25rem 2.25rem 2.25rem; 
+        background-color: white;
+        color: #636363;
+        font-family: inherit;
+}
+/*.gray {background: linear-gradient(to bottom, #eeeeee 0%, #efefef 30%, #f8f8f8 60%, #ffffff 100%);} Фон для переходящего серого*/

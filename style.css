@@ -222,22 +222,36 @@ hr{
         height: 0.1rem;
 }
 .physicalsecurity{
+        display: inline-block;
         width: 40%;
         font-size: 1.5em;
         text-align: right;
         margin-left: 18rem;
+        margin-top: -3%;
 }
-.physicalsecurity h3, p{
+.physicalsecurity h3{
         text-align: right;
         display: block;
 }
+.physicalsecurity p{
+        margin-bottom: 19%;
+}
+.physicalsecurity hr{
+        margin-bottom: -4.5%;
+        margin-left: -18rem;
+        width: 55.9rem;
+        height: 0.1rem;
+}
 
-section button{
+.physicalsecurity button{
         width: 20.875rem; 
         height: 3.875rem; 
         border-radius: 2.25rem 2.25rem 2.25rem 2.25rem; 
         background-color: white;
         color: #636363;
         font-family: inherit;
+        margin-left: 84%;
+        margin-bottom: -4rem;
 }
+
 /*.gray {background: linear-gradient(to bottom, #eeeeee 0%, #efefef 30%, #f8f8f8 60%, #ffffff 100%);} Фон для переходящего серого*/
